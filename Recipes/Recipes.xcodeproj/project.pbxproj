@@ -15,6 +15,7 @@
 		9DA0F0872117E40100A99E97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA0F0852117E40100A99E97 /* LaunchScreen.storyboard */; };
 		D60C1FE022962AC8008647FF /* RecipesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60C1FDF22962AC8008647FF /* RecipesTableViewController.swift */; };
 		D60C1FE222962AD6008647FF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60C1FE122962AD6008647FF /* MainViewController.swift */; };
+		D60C1FE422963056008647FF /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60C1FE322963056008647FF /* RecipeDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9DA0F0882117E40100A99E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D60C1FDF22962AC8008647FF /* RecipesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesTableViewController.swift; sourceTree = "<group>"; };
 		D60C1FE122962AD6008647FF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D60C1FE322963056008647FF /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				D60C1FE122962AD6008647FF /* MainViewController.swift */,
 				D60C1FDF22962AC8008647FF /* RecipesTableViewController.swift */,
+				D60C1FE322963056008647FF /* RecipeDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				9DA0F07D2117E3F800A99E97 /* AppDelegate.swift in Sources */,
 				D60C1FE022962AC8008647FF /* RecipesTableViewController.swift in Sources */,
 				9D59B52C2117F533002FB7CD /* Recipe.swift in Sources */,
+				D60C1FE422963056008647FF /* RecipeDetailViewController.swift in Sources */,
 				D60C1FE222962AD6008647FF /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

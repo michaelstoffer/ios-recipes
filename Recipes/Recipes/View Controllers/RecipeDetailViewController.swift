@@ -1,5 +1,5 @@
 //
-//  MainViewController.swift
+//  RecipeDetailViewController.swift
 //  Recipes
 //
 //  Created by Michael Stoffer on 5/22/19.
@@ -8,10 +8,11 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class RecipeDetailViewController: UIViewController {
     
-    // MARK: - @IBOutlets and Variables
-    @IBOutlet var searchTextField: UITextField!
+    // MARK: - @IBOutlets and Variabels
+    @IBOutlet var recipeNameLabel: UILabel!
+    @IBOutlet var recipeInstructionsTextView: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +21,6 @@ class MainViewController: UIViewController {
     }
     
     // MARK: - @IBActions and Methods
-    @IBAction func searchRecipes(_ sender: UITextField) {
-    }
     
 
     /*
