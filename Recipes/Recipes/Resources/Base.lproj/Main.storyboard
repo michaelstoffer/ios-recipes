@@ -81,7 +81,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="VEO-LN-Dck" kind="show" id="luZ-Fs-cUF"/>
+                                    <segue destination="VEO-LN-Dck" kind="show" identifier="ToRecipeDetail" id="luZ-Fs-cUF"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
